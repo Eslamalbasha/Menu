@@ -1,58 +1,95 @@
 export const items = [
   {
     id: Math.random(),
-    title: "وجبه فطار",
-    description: "وصف الفطار",
-    price: "100 جنيه",
-    category: "فطار",
-    imgUrl: "1.png",
+    title: "Breakfast",
+    description:
+      "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bitlonger.",
+    price: "100$",
+    category: "Breakfast",
+    imgUrl: "../public/assets/1.png",
   },
   {
     id: Math.random(),
-    title: "وجبه غدا",
-    description: "وصف الفطار",
-    price: "80 جنيه",
-    category: "غدا",
-    imgUrl: "2.png",
+    title: "Lunch",
+    description:
+      "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bitlonger.",
+    price: "200$",
+    category: "Lunch",
+    imgUrl: "../public/assets/2.png",
   },
   {
     id: Math.random(),
-    title: "وجبه عشاء",
-    description: "وصف الفطار",
-    price: "40 جنيه",
-    category: "عشاء",
-    imgUrl: "3.png",
+    title: "Dinner",
+    description:
+      "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bitlonger.",
+    price: "90$",
+    category: "Dinner",
+    imgUrl: "../public/assets/3.png",
   },
   {
     id: Math.random(),
-    title: "وجبه غدا ممتاز",
-    description: "وصف الفطار",
-    price: "30 جنيه",
-    category: "غدا",
-    imgUrl: "2.png",
+    title: "Excellent lunch",
+    description:
+      "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bitlonger.",
+    price: "300$",
+    category: "Lunch",
+    imgUrl: "../public/assets/1.png",
   },
   {
     id: Math.random(),
-    title: "وجبه عشاء درجه اولى",
-    description: "وصف الفطار",
-    price: "50 جنيه",
-    category: "عشاء",
-    imgUrl: "1.png",
+    title: "  Breakfast",
+
+    description:
+      "This is a longer card with supporting text below as a natural lead-in to additional content. This conten",
+    price: "90$",
+    category: "Breakfast",
+    imgUrl: "../public/assets/3.png",
   },
   {
     id: Math.random(),
-    title: "وجبه فطار",
-    description: "وصف الفطار",
-    price: "50 جنيه",
-    category: "فطار",
-    imgUrl: "3.png",
+    title: "First class Ashad meal",
+    description:
+      "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bitlonger.",
+    price: "150$",
+    category: "Dinner",
+    imgUrl: "../public/assets/1.png",
+  },
+
+  {
+    id: Math.random(),
+    title: " Snacks",
+    description:
+      "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bitlonger.",
+    price: "120$",
+    category: "Snacks",
+
+    imgUrl: "../public/assets/3.png",
   },
   {
     id: Math.random(),
-    title: "وجبه سناك",
-    description: "وصف الفطار",
-    price: "50 جنيه",
-    category: "سناك",
-    imgUrl: "3.png",
+    title: "Breakfast",
+    description:
+      "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bitlonger.",
+    price: "100$",
+    category: "Breakfast",
+    imgUrl: "../public/assets/1.png",
+  },
+  {
+    id: Math.random(),
+    title: "Lunch",
+    description:
+      "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bitlonger.",
+    price: "200$",
+    category: "Lunch",
+    imgUrl: "../public/assets/2.png",
+  },
+  {
+    id: Math.random(),
+    title: "juice",
+    description:
+      "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bitlonger.",
+    price: "200$",
+    category: "juice",
+    imgUrl: "../public/assets/2.png",
   },
 ];
