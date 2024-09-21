@@ -6,7 +6,7 @@ import CardItem from "./commonent/Card";
 import { items } from "./data";
 import { useState } from "react";
 
-function App() {
+const App = () => {
   const [itemsData, setitemsData] = useState(items);
   //get all catergory uniqe
   const allCatergory = ["All", ...new Set(items.map((i) => i.category))];
@@ -20,10 +20,17 @@ function App() {
       setitemsData(newArr);
     }
   };
+  // Filter by Search form
+  const filterSearch = (word) => {
+    if (word !== "") {
+      const newArr = items.filter((item) => item.title === word);
+      setitemsData(newArr);
+    }
+  };
 
   return (
     <div className="color-body font">
-      <NavBar />
+      <NavBar filterSearch={filterSearch} />
       <Container>
         <Header />
         <Category filterCategory={filterCategory} allCatergory={allCatergory} />
@@ -31,6 +38,6 @@ function App() {
       </Container>
     </div>
   );
-}
+};
 
 export default App;

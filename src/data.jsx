@@ -37,7 +37,7 @@ export const items = [
   },
   {
     id: Math.random(),
-    title: "  Breakfast",
+    title: "Breakfast",
 
     description:
       "This is a longer card with supporting text below as a natural lead-in to additional content. This conten",
@@ -57,7 +57,17 @@ export const items = [
 
   {
     id: Math.random(),
-    title: " Snacks",
+    title: "Snacks",
+    description:
+      "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bitlonger.",
+    price: "120$",
+    category: "Snacks",
+
+    imgUrl: "../public/assets/3.png",
+  },
+  {
+    id: Math.random(),
+    title: "Snacks",
     description:
       "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bitlonger.",
     price: "120$",
@@ -81,6 +91,15 @@ export const items = [
       "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bitlonger.",
     price: "200$",
     category: "Lunch",
+    imgUrl: "../public/assets/2.png",
+  },
+  {
+    id: Math.random(),
+    title: "juice",
+    description:
+      "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bitlonger.",
+    price: "200$",
+    category: "juice",
     imgUrl: "../public/assets/2.png",
   },
   {
